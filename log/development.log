@@ -1,0 +1,1807 @@
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 18:55:07 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (3.1ms)
+Completed 200 OK in 52ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/top" for 127.0.0.1 at 2017-07-04 18:55:11 +0900
+
+ActionController::RoutingError (No route matches [GET] "/top"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.1ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (24.5ms)
+
+
+Started GET "/tops" for 127.0.0.1 at 2017-07-04 18:55:17 +0900
+
+ActionController::RoutingError (uninitialized constant TopsController):
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__3980801184103322005__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (20.2ms)
+
+
+Started GET "/tops/" for 127.0.0.1 at 2017-07-04 18:55:24 +0900
+
+ActionController::RoutingError (uninitialized constant TopsController):
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__3980801184103322005__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (20.7ms)
+
+
+Started GET "/top/" for 127.0.0.1 at 2017-07-04 18:55:49 +0900
+
+ActionController::RoutingError (No route matches [GET] "/top"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.6ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (20.9ms)
+
+
+Started GET "/tops/" for 127.0.0.1 at 2017-07-04 18:55:57 +0900
+
+ActionController::RoutingError (uninitialized constant TopsController):
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__3980801184103322005__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (26.5ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (45.7ms)
+
+
+Started GET "/tops/" for 127.0.0.1 at 2017-07-04 18:57:13 +0900
+
+ActionController::RoutingError (uninitialized constant TopsController):
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__4404610900459241151__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.3ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (27.3ms)
+
+
+Started GET "/tops/" for 127.0.0.1 at 2017-07-04 18:57:28 +0900
+
+ActionController::RoutingError (uninitialized constant TopsController):
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__4404610900459241151__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (18.5ms)
+
+
+Started GET "/tops/" for 127.0.0.1 at 2017-07-04 18:58:08 +0900
+
+ActionController::RoutingError (uninitialized constant TopsController):
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__4404610900459241151__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (27.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 18:58:11 +0900
+
+ActionController::RoutingError (uninitialized constant TopsController):
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__4404610900459241151__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (20.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 18:59:12 +0900
+
+ActionController::RoutingError (uninitialized constant TopsController):
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__4404610900459241151__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (26.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 19:01:01 +0900
+Processing by TopsController#index as HTML
+Completed 500 Internal Server Error in 781ms
+
+ActionView::MissingTemplate (Missing template tops/index, application/index with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/Keita/programing/incubit-rails/insta_get_image/insta_get_img/app/views"
+):
+  actionpack (4.0.0) lib/action_view/path_set.rb:46:in `find'
+  actionpack (4.0.0) lib/action_view/lookup_context.rb:115:in `find'
+  actionpack (4.0.0) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.0) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:383:in `_run__2301530073005061953__process_action__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__3174687539243727133__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 19:02:36 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1061ms (Views: 485.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-04 19:02:38 +0900
+
+
+Started GET "/assets/tops.css?body=1" for 127.0.0.1 at 2017-07-04 19:02:38 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-04 19:02:38 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-04 19:02:38 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-04 19:02:38 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-04 19:02:38 +0900
+
+
+Started GET "/assets/tops.js?body=1" for 127.0.0.1 at 2017-07-04 19:02:38 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 19:03:21 +0900
+Processing by TopsController#index as HTML
+Completed 500 Internal Server Error in 316ms
+
+JSON::ParserError (784: unexpected token at '<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7 not-logged-in "> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8 not-logged-in "> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9 not-logged-in "> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js not-logged-in "> <!--<![endif]-->
+    <head><meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>
+                  Page Not Found &bull; Instagram
+                </title>
+
+        
+        <meta name="robots" content="noimageindex">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="theme-color" content="#000000">
+        <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        
+
+        <script type="text/javascript">
+        (function() {
+            var docElement = document.documentElement;
+            var classRE = new RegExp('(^|\\s)no-js(\\s|$)');
+            var className = docElement.className;
+            docElement.className = className.replace(classRE, '$1js$2');
+        })();
+        </script>
+                <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/static/images/ico/apple-touch-icon-76x76-precomposed.png/932e4d9af891.png">
+                <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/static/images/ico/apple-touch-icon-120x120-precomposed.png/004705c9353f.png">
+                <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/static/images/ico/apple-touch-icon-152x152-precomposed.png/82467bc9bcce.png">
+                <link rel="apple-touch-icon-precomposed" sizes="167x167" href="/static/images/ico/apple-touch-icon-167x167-precomposed.png/515cb4eeeeee.png">
+                <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/static/images/ico/apple-touch-icon-180x180-precomposed.png/94fd767f257b.png">
+                <link rel="icon" sizes="192x192" href="/static/images/ico/favicon-192.png/b407fa101800.png">
+            
+            <link rel="mask-icon" href="/static/images/ico/favicon.svg/9d8680ab8a3c.svg" color="#262626"><link rel="shortcut icon" type="image/x-icon" href="/static/images/ico/favicon.ico/dfa85bb1fd63.ico">
+            
+            
+    
+        <style type="text/css">/* @generated 
+ * DO NOT CHANGE THIS FILE. Instead, modify the non-build version of "main.css"
+ * then run "yolo css"
+ */
+body{-webkit-font-smoothing:antialiased;background-color:#fafafa;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;margin:0}.client-root{font-size:14px}a{text-decoration:none}.-cx-PRIVATE-Page__body,.-cx-PRIVATE-Page__main,.-cx-PRIVATE-Page__root{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.-cx-PRIVATE-Page__root{height:100vh}.-cx-PRIVATE-Page__body,.-cx-PRIVATE-Page__main{-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto}.-cx-PRIVATE-Page__main{margin-top:137px;position:relative}@media screen and (max-width:990px){.-cx-PRIVATE-Page__main{display:block;margin-top:0}}.-cx-PRIVATE-NavBar__root{background-color:#fff;border-bottom:1px solid #efefef;height:77px;position:fixed;top:0;width:100%;z-index:100}.-cx-PRIVATE-NavBar__profilePic{display:none}.-cx-PRIVATE-NavBar__username{color:#003569;display:inline!important;float:right;font-weight:400;margin-right:2px;margin-top:12px}.-cx-PRIVATE-NavBar__signIn{display:inline-block;float:right;margin-right:2px;margin-top:12px}.-cx-PRIVATE-NavBar__signInText{color:#003569;font-weight:400}.-cx-PRIVATE-NavBar__logo{background-image:url(/static/images/branding/logoWhiteoutLockup.png/54b3cb7339a2.png);background-size:100%;height:35px;left:16px;position:absolute;text-indent:-9999em;top:6px;width:176px}.-cx-PRIVATE-NavBar__logo a{display:block;height:100%;width:100%}@media screen and (-webkit-min-device-pixel-ratio:1.5),screen and (min-resolution:1.5dppx){.-cx-PRIVATE-NavBar__logo{background-image:url(/static/images/branding/logoWhiteoutLockup@2x.png/0909ce98493b.png)}}.-cx-PRIVATE-NavBar__logoGroup{left:16px;position:absolute;top:6px}.-cx-PRIVATE-NavBar__logoGroup .-cx-PRIVATE-NavBar__logo{position:static}.-cx-PRIVATE-NavBar__wrapper{margin:0 auto;max-width:1026px;padding:0 16px;position:relative}.-cx-PRIVATE-NavBar__topBarActions,.-cx-PRIVATE-SidebarLayout__content li{list-style:none}.-cx-PRIVATE-NavBar__dropdown,.-cx-PRIVATE-NavBar__topBarLeft,.-cx-PRIVATE-SidebarLayout__content .separator,.-cx-PRIVATE-SidebarLayout__content .subtitle{display:none}.-cx-PRIVATE-SidebarLayout__content{border-right:1px solid #efefef;height:100%;width:220px}.-cx-PRIVATE-SidebarLayout__content ul{margin:0;padding:0}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__content{margin:0 px;border:none;width:100%}.-cx-PRIVATE-SidebarLayout__content ul{display:none}}.-cx-PRIVATE-SidebarLayout__root{-webkit-box-sizing:border-box;box-sizing:border-box;height:100%;pointer-events:none;position:absolute;width:100%;z-index:1}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__root{height:auto;padding-bottom:0;padding-top:78px;position:static}}.-cx-PRIVATE-SidebarLayout__contentWrapper,.-cx-PRIVATE-SidebarLayout__navWrapper{-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto;margin:0 auto;position:relative;width:992px}@media screen and (min-width:991px){.-cx-PRIVATE-SidebarLayout__navWrapper{height:100%}}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__navWrapper{-webkit-box-sizing:border-box;box-sizing:border-box;display:inline-block;height:auto;min-height:0;padding:0;width:100%}}.-cx-PRIVATE-SidebarLayout__nav{float:left;height:100%;padding-right:0;pointer-events:initial;width:256px}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__nav{float:none;display:block;margin:0!important;background:0 0;border:none;width:100%}}.-cx-PRIVATE-SidebarLayout__contentWrapper{background-color:#fff;border:1px solid #efefef;-webkit-box-sizing:border-box;box-sizing:border-box;padding:0 16px 20px}@media screen and (min-width:991px){.-cx-PRIVATE-SidebarLayout__contentWrapper{border:1px solid #efefef;border-radius:3px}}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__contentWrapper{width:100%;-webkit-box-sizing:border-box;box-sizing:border-box}.-cx-PRIVATE-SidebarLayout__pageContent .-cx-PRIVATE-SidebarLayout__contentWrapper{padding:0 10px}}.-cx-PRIVATE-SidebarLayout__pageContent{color:#262626;margin-left:205px;padding:30px 50px}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__pageContent{margin-left:0;margin-right:0;padding:20px 0}}.-cx-PRIVATE-SidebarLayout__pageContent>:first-child{margin-top:0}.-cx-PRIVATE-SidebarLayout__pageContent a{color:#003569}.-cx-PRIVATE-SidebarLayout__pageContent h1{font-size:32px;font-weight:400;margin-bottom:20px;margin-top:28px}.-cx-PRIVATE-SidebarLayout__pageContent h2{font-size:24px;font-weight:400;margin-bottom:12px;margin-top:28px}.-cx-PRIVATE-SidebarLayout__pageContent h3{font-weight:600;margin-bottom:12px;margin-top:28px}.-cx-PRIVATE-SidebarLayout__pageContent li{padding-left:8px}.-cx-PRIVATE-SidebarLayout__pageContent li:not(:first-child){margin-top:8px}.-cx-PRIVATE-SidebarLayout__pageContent pre{white-space:pre-wrap}.-cx-PRIVATE-Navigation__header{color:#999;font-size:16px;font-weight:initial;margin:0;padding:16px;text-transform:uppercase}@media screen and (max-width:990px){.-cx-PRIVATE-Navigation__header:first-child{display:block}.-cx-PRIVATE-Navigation__header:not(:first-child){display:none}.-cx-PRIVATE-Navigation__header i{float:left;width:22px;height:18px;margin-right:8px;margin-left:10px;background:url(/static/images/glyphs/disclosure-down@2x.png/970bdcaa6ff1.png) no-repeat center;background-size:14px 14px}.-cx-PRIVATE-SidebarLayout__content.active .-cx-PRIVATE-Navigation__header i{-webkit-transform:rotate(180deg);transform:rotate(180deg)}}.-cx-PRIVATE-Navigation__navLink,.-cx-PRIVATE-Navigation__navLink:active,.-cx-PRIVATE-Navigation__navLink:hover,.-cx-PRIVATE-Navigation__navLink:visited{border-left:2px solid transparent;-webkit-box-sizing:border-box;box-sizing:border-box;color:#262626;font-size:16px;display:block;padding:16px 16px 16px 30px;width:100%}.-cx-PRIVATE-Navigation__navLink:hover{border-left-color:#dbdbdb}.-cx-PRIVATE-Navigation__active .-cx-PRIVATE-Navigation__navLink{border-left-color:#262626;font-weight:600}.-cx-PRIVATE-Footer__root{font-size:12px;height:77px}.-cx-PRIVATE-Footer__copyright{color:#262626;display:inline-block;float:right;font-weight:600;margin-top:20px;text-transform:uppercase}.-cx-PRIVATE-Footer__nav{display:inline-block}@media screen and (max-width:990px){.-cx-PRIVATE-Footer__copyright{text-align:center;width:100%}}.-cx-PRIVATE-Footer__navItems{margin:20px 0;padding:0;text-align:center}.-cx-PRIVATE-Footer__navItems li{display:inline-block;list-style:none}.-cx-PRIVATE-Footer__navItems li:not(:first-child){margin-left:15px}.-cx-PRIVATE-Footer__navItems a,.-cx-PRIVATE-Footer__navItems a:active,.-cx-PRIVATE-Footer__navItems a:focus,.-cx-PRIVATE-Footer__navItems a:hover,.-cx-PRIVATE-Footer__navItems a:visited{color:#003569;font-weight:600;text-transform:uppercase}.-cx-PRIVATE-Footer__wrapper{margin-left:auto;margin-right:auto;max-width:1026px;padding:0 20px}.-cx-PRIVATE-ErrorPage__errorContainer{text-align:center}@media (max-width:990px){.-cx-PRIVATE-ErrorPage__errorContainer{padding:100px 40px 0}}.-cx-PRIVATE-ErrorPage__errorContainer a,.-cx-PRIVATE-ErrorPage__errorContainer a:visited{color:#003569}.-cx-PRIVATE-Linkshim__followLink{background-color:#fff;color:#3897f0;border:1px solid #3897f0;border-radius:3px;display:inline-block;-webkit-box-sizing:border-box;box-sizing:border-box;text-align:center;padding:8px;font:inherit;font-weight:700;width:90%}@media (min-width:736px){.-cx-PRIVATE-Linkshim__followLink{width:10%}}.-cx-PRIVATE-Linkshim__followLink:active{opacity:.5}.-cx-PRIVATE-Linkshim__followLink:focus{color:#1372cc;border:1px solid #1372cc}.-cx-PRIVATE-GatedContentPage__userAvatarContainer{height:70px;text-align:center}.-cx-PRIVATE-GatedContentPage__userAvatar{border-radius:50%;height:100%;width:auto}</style>
+    
+
+            
+    <script type="text/javascript" src="/static/scripts/jquery.js/213ba890e802.js"></script>
+    <script type="text/javascript" src="/static/scripts/bluebar.js/57733d51aed5.js"></script>
+</head>
+    <body class=" p-error dialog-404">
+        
+            <div class="root -cx-PRIVATE-Page__root">
+                
+                    <div class="page -cx-PRIVATE-Page__body">
+                        
+                            
+                                <header class="top-bar top-bar-new -cx-PRIVATE-NavBar__root">
+    <div class="top-bar-wrapper -cx-PRIVATE-NavBar__wrapper">
+        <div class="logo -cx-PRIVATE-NavBar__logo"><a href="/">Instagram</a></div>
+
+        <div class="top-bar-left -cx-PRIVATE-NavBar__topBarLeft">
+            <ul class="top-bar-actions">
+                <li>
+                    <a class="top-bar-home" href="/" label=Home><i></i></a>
+                </li>
+            </ul>
+        </div>
+
+        
+            <div class="top-bar-right account-state" id="top_bar_right">
+                <ul class="top-bar-actions -cx-PRIVATE-NavBar__topBarActions">
+                    
+                    
+                    <li id="link_profile" class="link-signin -cx-PRIVATE-NavBar__signIn">
+                        <a href="/accounts/login/" class="loginLink">
+                            <i></i>
+                            <strong class="-cx-PRIVATE-NavBar__signInText">Log in</strong>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        
+    </div>
+</header> <!-- .top-bar -->
+                            
+                        
+
+                        
+                        <div class="main -cx-PRIVATE-Page__main">
+                            
+    <div class="error-container -cx-PRIVATE-ErrorPage__errorContainer">
+    
+
+    <h2>Sorry, this page isn&#39;t available.</h2>
+
+    <p>
+        The link you followed may be broken, or the page may have been removed.
+        <a href="/">Go back to Instagram.</a>
+    </p>
+
+
+
+    </div>
+
+                        </div> <!-- .main -->
+                        
+
+                    </div> <!-- .page -->
+
+                    
+                    <footer class="page-footer -cx-PRIVATE-Footer__root" role="contentinfo">
+                        <div class="wrapper -cx-PRIVATE-Footer__wrapper">
+                            <nav class="-cx-PRIVATE-Footer__nav">
+                                <ul class="-cx-PRIVATE-Footer__navItems">
+                                    <li><a href="/about/us/">About us</a></li>
+                                    <li><a href="http://help.instagram.com/">Support</a></li>
+                                    <li><a href="http://blog.instagram.com/">Blog</a></li>
+                                    <li><a href="https://instagram-press.com/">Press</a></li>
+                                    <li><a href="/developer/">API</a></li>
+                                    <li><a href="/about/jobs/">Jobs</a></li>
+                                    <li><a href="/legal/privacy/">Privacy</a></li>
+                                    <li><a href="/legal/terms/">Terms</a></li>
+                                </ul>
+                            </nav>
+
+                            <p class="copyright -cx-PRIVATE-Footer__copyright">&copy; 2017 Instagram</p>
+                        </div>
+                    </footer>
+                    
+                
+                <div id="reactModalMountPoint"></div>
+            </div> <!-- .root -->
+        
+        
+
+        
+            <script src=/static/scripts/polyfills/es5-shim.min.js/6514c5e08593.js></script>
+<script src=/static/scripts/polyfills/es5-sham.min.js/fc3c22cf2d67.js></script>
+<script type="text/javascript">window._sharedData = {"activity_counts": null, "config": {"csrf_token": "NOTPROVIDED", "viewer": null}, "country_code": "JP", "language_code": "en", "entry_data": {}, "gatekeepers": {"bn": true, "ld": true, "pl": true}, "qe": {"ebd": {"g": "", "p": {}}, "bc3l": {"g": "", "p": {}}, "create": {"g": "", "p": {}}, "ccp": {"g": "", "p": {}}, "create_upsell": {"g": "", "p": {}}, "disc": {"g": "", "p": {}}, "feed": {"g": "", "p": {}}, "su_universe": {"g": "", "p": {}}, "us": {"g": "", "p": {}}, "us_li": {"g": "", "p": {}}, "nav": {"g": "", "p": {}}, "nav_lo": {"g": "", "p": {}}, "pm": {"g": "", "p": {}}, "profile": {"g": "", "p": {}}, "deact": {"g": "", "p": {}}, "sidecar": {"g": "", "p": {}}, "video": {"g": "", "p": {}}, "filters": {"g": "", "p": {}}, "typeahead": {"g": "", "p": {}}, "location_tag": {"g": "", "p": {}}, "pw_link": {"g": "", "p": {}}, "delta_defaults": {"g": "", "p": {}}, "appsell": {"g": "", "p": {}}, "profile_sensitivity": {"g": "", "p": {}}, "save": {"g": "", "p": {}}}, "hostname": "api.instagram.com", "display_properties_server_guess": {"pixel_ratio": 1.5, "viewport_width": 360}, "environment_switcher_visible_server_guess": true, "platform": "web", "probably_has_app": false, "show_app_install": true};</script>
+
+                
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1425767024389221');
+
+fbq('track', 'PageView');
+
+
+</script>
+<noscript>
+
+
+</noscript>
+
+            
+        
+    </body>
+</html>'):
+  app/controllers/tops_controller.rb:13:in `index'
+
+
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 19:03:29 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 504ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-04 19:03:30 +0900
+
+
+Started GET "/assets/tops.js?body=1" for 127.0.0.1 at 2017-07-04 19:03:30 +0900
+
+
+Started GET "/assets/tops.css?body=1" for 127.0.0.1 at 2017-07-04 19:03:30 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-04 19:03:30 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-04 19:03:30 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-04 19:03:30 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-04 19:03:30 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 19:03:45 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1056ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops.css?body=1" for 127.0.0.1 at 2017-07-04 19:03:46 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-04 19:03:46 +0900
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-04 19:03:46 +0900
+
+
+Started GET "/assets/tops.js?body=1" for 127.0.0.1 at 2017-07-04 19:03:46 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-04 19:03:46 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-04 19:03:46 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-04 19:03:46 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 19:04:05 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 538ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops.css?body=1" for 127.0.0.1 at 2017-07-04 19:04:05 +0900
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-04 19:04:05 +0900
+
+
+Started GET "/assets/tops.js?body=1" for 127.0.0.1 at 2017-07-04 19:04:05 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-04 19:04:05 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-04 19:04:05 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-04 19:04:05 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-04 19:04:05 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 19:08:07 +0900
+Processing by TopsController#index as HTML
+Completed 500 Internal Server Error in 773ms
+
+JSON::ParserError (784: unexpected token at '<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7 not-logged-in "> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8 not-logged-in "> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9 not-logged-in "> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js not-logged-in "> <!--<![endif]-->
+    <head><meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>
+                  Page Not Found &bull; Instagram
+                </title>
+
+        
+        <meta name="robots" content="noimageindex">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="theme-color" content="#000000">
+        <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        
+
+        <script type="text/javascript">
+        (function() {
+            var docElement = document.documentElement;
+            var classRE = new RegExp('(^|\\s)no-js(\\s|$)');
+            var className = docElement.className;
+            docElement.className = className.replace(classRE, '$1js$2');
+        })();
+        </script>
+                <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/static/images/ico/apple-touch-icon-76x76-precomposed.png/932e4d9af891.png">
+                <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/static/images/ico/apple-touch-icon-120x120-precomposed.png/004705c9353f.png">
+                <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/static/images/ico/apple-touch-icon-152x152-precomposed.png/82467bc9bcce.png">
+                <link rel="apple-touch-icon-precomposed" sizes="167x167" href="/static/images/ico/apple-touch-icon-167x167-precomposed.png/515cb4eeeeee.png">
+                <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/static/images/ico/apple-touch-icon-180x180-precomposed.png/94fd767f257b.png">
+                <link rel="icon" sizes="192x192" href="/static/images/ico/favicon-192.png/b407fa101800.png">
+            
+            <link rel="mask-icon" href="/static/images/ico/favicon.svg/9d8680ab8a3c.svg" color="#262626"><link rel="shortcut icon" type="image/x-icon" href="/static/images/ico/favicon.ico/dfa85bb1fd63.ico">
+            
+            
+    
+        <style type="text/css">/* @generated 
+ * DO NOT CHANGE THIS FILE. Instead, modify the non-build version of "main.css"
+ * then run "yolo css"
+ */
+body{-webkit-font-smoothing:antialiased;background-color:#fafafa;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;margin:0}.client-root{font-size:14px}a{text-decoration:none}.-cx-PRIVATE-Page__body,.-cx-PRIVATE-Page__main,.-cx-PRIVATE-Page__root{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.-cx-PRIVATE-Page__root{height:100vh}.-cx-PRIVATE-Page__body,.-cx-PRIVATE-Page__main{-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto}.-cx-PRIVATE-Page__main{margin-top:137px;position:relative}@media screen and (max-width:990px){.-cx-PRIVATE-Page__main{display:block;margin-top:0}}.-cx-PRIVATE-NavBar__root{background-color:#fff;border-bottom:1px solid #efefef;height:77px;position:fixed;top:0;width:100%;z-index:100}.-cx-PRIVATE-NavBar__profilePic{display:none}.-cx-PRIVATE-NavBar__username{color:#003569;display:inline!important;float:right;font-weight:400;margin-right:2px;margin-top:12px}.-cx-PRIVATE-NavBar__signIn{display:inline-block;float:right;margin-right:2px;margin-top:12px}.-cx-PRIVATE-NavBar__signInText{color:#003569;font-weight:400}.-cx-PRIVATE-NavBar__logo{background-image:url(/static/images/branding/logoWhiteoutLockup.png/54b3cb7339a2.png);background-size:100%;height:35px;left:16px;position:absolute;text-indent:-9999em;top:6px;width:176px}.-cx-PRIVATE-NavBar__logo a{display:block;height:100%;width:100%}@media screen and (-webkit-min-device-pixel-ratio:1.5),screen and (min-resolution:1.5dppx){.-cx-PRIVATE-NavBar__logo{background-image:url(/static/images/branding/logoWhiteoutLockup@2x.png/0909ce98493b.png)}}.-cx-PRIVATE-NavBar__logoGroup{left:16px;position:absolute;top:6px}.-cx-PRIVATE-NavBar__logoGroup .-cx-PRIVATE-NavBar__logo{position:static}.-cx-PRIVATE-NavBar__wrapper{margin:0 auto;max-width:1026px;padding:0 16px;position:relative}.-cx-PRIVATE-NavBar__topBarActions,.-cx-PRIVATE-SidebarLayout__content li{list-style:none}.-cx-PRIVATE-NavBar__dropdown,.-cx-PRIVATE-NavBar__topBarLeft,.-cx-PRIVATE-SidebarLayout__content .separator,.-cx-PRIVATE-SidebarLayout__content .subtitle{display:none}.-cx-PRIVATE-SidebarLayout__content{border-right:1px solid #efefef;height:100%;width:220px}.-cx-PRIVATE-SidebarLayout__content ul{margin:0;padding:0}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__content{margin:0 px;border:none;width:100%}.-cx-PRIVATE-SidebarLayout__content ul{display:none}}.-cx-PRIVATE-SidebarLayout__root{-webkit-box-sizing:border-box;box-sizing:border-box;height:100%;pointer-events:none;position:absolute;width:100%;z-index:1}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__root{height:auto;padding-bottom:0;padding-top:78px;position:static}}.-cx-PRIVATE-SidebarLayout__contentWrapper,.-cx-PRIVATE-SidebarLayout__navWrapper{-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto;margin:0 auto;position:relative;width:992px}@media screen and (min-width:991px){.-cx-PRIVATE-SidebarLayout__navWrapper{height:100%}}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__navWrapper{-webkit-box-sizing:border-box;box-sizing:border-box;display:inline-block;height:auto;min-height:0;padding:0;width:100%}}.-cx-PRIVATE-SidebarLayout__nav{float:left;height:100%;padding-right:0;pointer-events:initial;width:256px}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__nav{float:none;display:block;margin:0!important;background:0 0;border:none;width:100%}}.-cx-PRIVATE-SidebarLayout__contentWrapper{background-color:#fff;border:1px solid #efefef;-webkit-box-sizing:border-box;box-sizing:border-box;padding:0 16px 20px}@media screen and (min-width:991px){.-cx-PRIVATE-SidebarLayout__contentWrapper{border:1px solid #efefef;border-radius:3px}}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__contentWrapper{width:100%;-webkit-box-sizing:border-box;box-sizing:border-box}.-cx-PRIVATE-SidebarLayout__pageContent .-cx-PRIVATE-SidebarLayout__contentWrapper{padding:0 10px}}.-cx-PRIVATE-SidebarLayout__pageContent{color:#262626;margin-left:205px;padding:30px 50px}@media screen and (max-width:990px){.-cx-PRIVATE-SidebarLayout__pageContent{margin-left:0;margin-right:0;padding:20px 0}}.-cx-PRIVATE-SidebarLayout__pageContent>:first-child{margin-top:0}.-cx-PRIVATE-SidebarLayout__pageContent a{color:#003569}.-cx-PRIVATE-SidebarLayout__pageContent h1{font-size:32px;font-weight:400;margin-bottom:20px;margin-top:28px}.-cx-PRIVATE-SidebarLayout__pageContent h2{font-size:24px;font-weight:400;margin-bottom:12px;margin-top:28px}.-cx-PRIVATE-SidebarLayout__pageContent h3{font-weight:600;margin-bottom:12px;margin-top:28px}.-cx-PRIVATE-SidebarLayout__pageContent li{padding-left:8px}.-cx-PRIVATE-SidebarLayout__pageContent li:not(:first-child){margin-top:8px}.-cx-PRIVATE-SidebarLayout__pageContent pre{white-space:pre-wrap}.-cx-PRIVATE-Navigation__header{color:#999;font-size:16px;font-weight:initial;margin:0;padding:16px;text-transform:uppercase}@media screen and (max-width:990px){.-cx-PRIVATE-Navigation__header:first-child{display:block}.-cx-PRIVATE-Navigation__header:not(:first-child){display:none}.-cx-PRIVATE-Navigation__header i{float:left;width:22px;height:18px;margin-right:8px;margin-left:10px;background:url(/static/images/glyphs/disclosure-down@2x.png/970bdcaa6ff1.png) no-repeat center;background-size:14px 14px}.-cx-PRIVATE-SidebarLayout__content.active .-cx-PRIVATE-Navigation__header i{-webkit-transform:rotate(180deg);transform:rotate(180deg)}}.-cx-PRIVATE-Navigation__navLink,.-cx-PRIVATE-Navigation__navLink:active,.-cx-PRIVATE-Navigation__navLink:hover,.-cx-PRIVATE-Navigation__navLink:visited{border-left:2px solid transparent;-webkit-box-sizing:border-box;box-sizing:border-box;color:#262626;font-size:16px;display:block;padding:16px 16px 16px 30px;width:100%}.-cx-PRIVATE-Navigation__navLink:hover{border-left-color:#dbdbdb}.-cx-PRIVATE-Navigation__active .-cx-PRIVATE-Navigation__navLink{border-left-color:#262626;font-weight:600}.-cx-PRIVATE-Footer__root{font-size:12px;height:77px}.-cx-PRIVATE-Footer__copyright{color:#262626;display:inline-block;float:right;font-weight:600;margin-top:20px;text-transform:uppercase}.-cx-PRIVATE-Footer__nav{display:inline-block}@media screen and (max-width:990px){.-cx-PRIVATE-Footer__copyright{text-align:center;width:100%}}.-cx-PRIVATE-Footer__navItems{margin:20px 0;padding:0;text-align:center}.-cx-PRIVATE-Footer__navItems li{display:inline-block;list-style:none}.-cx-PRIVATE-Footer__navItems li:not(:first-child){margin-left:15px}.-cx-PRIVATE-Footer__navItems a,.-cx-PRIVATE-Footer__navItems a:active,.-cx-PRIVATE-Footer__navItems a:focus,.-cx-PRIVATE-Footer__navItems a:hover,.-cx-PRIVATE-Footer__navItems a:visited{color:#003569;font-weight:600;text-transform:uppercase}.-cx-PRIVATE-Footer__wrapper{margin-left:auto;margin-right:auto;max-width:1026px;padding:0 20px}.-cx-PRIVATE-ErrorPage__errorContainer{text-align:center}@media (max-width:990px){.-cx-PRIVATE-ErrorPage__errorContainer{padding:100px 40px 0}}.-cx-PRIVATE-ErrorPage__errorContainer a,.-cx-PRIVATE-ErrorPage__errorContainer a:visited{color:#003569}.-cx-PRIVATE-Linkshim__followLink{background-color:#fff;color:#3897f0;border:1px solid #3897f0;border-radius:3px;display:inline-block;-webkit-box-sizing:border-box;box-sizing:border-box;text-align:center;padding:8px;font:inherit;font-weight:700;width:90%}@media (min-width:736px){.-cx-PRIVATE-Linkshim__followLink{width:10%}}.-cx-PRIVATE-Linkshim__followLink:active{opacity:.5}.-cx-PRIVATE-Linkshim__followLink:focus{color:#1372cc;border:1px solid #1372cc}.-cx-PRIVATE-GatedContentPage__userAvatarContainer{height:70px;text-align:center}.-cx-PRIVATE-GatedContentPage__userAvatar{border-radius:50%;height:100%;width:auto}</style>
+    
+
+            
+    <script type="text/javascript" src="/static/scripts/jquery.js/213ba890e802.js"></script>
+    <script type="text/javascript" src="/static/scripts/bluebar.js/57733d51aed5.js"></script>
+</head>
+    <body class=" p-error dialog-404">
+        
+            <div class="root -cx-PRIVATE-Page__root">
+                
+                    <div class="page -cx-PRIVATE-Page__body">
+                        
+                            
+                                <header class="top-bar top-bar-new -cx-PRIVATE-NavBar__root">
+    <div class="top-bar-wrapper -cx-PRIVATE-NavBar__wrapper">
+        <div class="logo -cx-PRIVATE-NavBar__logo"><a href="/">Instagram</a></div>
+
+        <div class="top-bar-left -cx-PRIVATE-NavBar__topBarLeft">
+            <ul class="top-bar-actions">
+                <li>
+                    <a class="top-bar-home" href="/" label=Home><i></i></a>
+                </li>
+            </ul>
+        </div>
+
+        
+            <div class="top-bar-right account-state" id="top_bar_right">
+                <ul class="top-bar-actions -cx-PRIVATE-NavBar__topBarActions">
+                    
+                    
+                    <li id="link_profile" class="link-signin -cx-PRIVATE-NavBar__signIn">
+                        <a href="/accounts/login/" class="loginLink">
+                            <i></i>
+                            <strong class="-cx-PRIVATE-NavBar__signInText">Log in</strong>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        
+    </div>
+</header> <!-- .top-bar -->
+                            
+                        
+
+                        
+                        <div class="main -cx-PRIVATE-Page__main">
+                            
+    <div class="error-container -cx-PRIVATE-ErrorPage__errorContainer">
+    
+
+    <h2>Sorry, this page isn&#39;t available.</h2>
+
+    <p>
+        The link you followed may be broken, or the page may have been removed.
+        <a href="/">Go back to Instagram.</a>
+    </p>
+
+
+
+    </div>
+
+                        </div> <!-- .main -->
+                        
+
+                    </div> <!-- .page -->
+
+                    
+                    <footer class="page-footer -cx-PRIVATE-Footer__root" role="contentinfo">
+                        <div class="wrapper -cx-PRIVATE-Footer__wrapper">
+                            <nav class="-cx-PRIVATE-Footer__nav">
+                                <ul class="-cx-PRIVATE-Footer__navItems">
+                                    <li><a href="/about/us/">About us</a></li>
+                                    <li><a href="http://help.instagram.com/">Support</a></li>
+                                    <li><a href="http://blog.instagram.com/">Blog</a></li>
+                                    <li><a href="https://instagram-press.com/">Press</a></li>
+                                    <li><a href="/developer/">API</a></li>
+                                    <li><a href="/about/jobs/">Jobs</a></li>
+                                    <li><a href="/legal/privacy/">Privacy</a></li>
+                                    <li><a href="/legal/terms/">Terms</a></li>
+                                </ul>
+                            </nav>
+
+                            <p class="copyright -cx-PRIVATE-Footer__copyright">&copy; 2017 Instagram</p>
+                        </div>
+                    </footer>
+                    
+                
+                <div id="reactModalMountPoint"></div>
+            </div> <!-- .root -->
+        
+        
+
+        
+            <script src=/static/scripts/polyfills/es5-shim.min.js/6514c5e08593.js></script>
+<script src=/static/scripts/polyfills/es5-sham.min.js/fc3c22cf2d67.js></script>
+<script type="text/javascript">window._sharedData = {"activity_counts": null, "config": {"csrf_token": "NOTPROVIDED", "viewer": null}, "country_code": "JP", "language_code": "en", "entry_data": {}, "gatekeepers": {"bn": true, "ld": true, "pl": true}, "qe": {"ebd": {"g": "", "p": {}}, "bc3l": {"g": "", "p": {}}, "create": {"g": "", "p": {}}, "ccp": {"g": "", "p": {}}, "create_upsell": {"g": "", "p": {}}, "disc": {"g": "", "p": {}}, "feed": {"g": "", "p": {}}, "su_universe": {"g": "", "p": {}}, "us": {"g": "", "p": {}}, "us_li": {"g": "", "p": {}}, "nav": {"g": "", "p": {}}, "nav_lo": {"g": "", "p": {}}, "pm": {"g": "", "p": {}}, "profile": {"g": "", "p": {}}, "deact": {"g": "", "p": {}}, "sidecar": {"g": "", "p": {}}, "video": {"g": "", "p": {}}, "filters": {"g": "", "p": {}}, "typeahead": {"g": "", "p": {}}, "location_tag": {"g": "", "p": {}}, "pw_link": {"g": "", "p": {}}, "delta_defaults": {"g": "", "p": {}}, "appsell": {"g": "", "p": {}}, "profile_sensitivity": {"g": "", "p": {}}, "save": {"g": "", "p": {}}}, "hostname": "api.instagram.com", "display_properties_server_guess": {"pixel_ratio": 1.5, "viewport_width": 360}, "environment_switcher_visible_server_guess": true, "platform": "web", "probably_has_app": false, "show_app_install": true};</script>
+
+                
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1425767024389221');
+
+fbq('track', 'PageView');
+
+
+</script>
+<noscript>
+
+
+</noscript>
+
+            
+        
+    </body>
+</html>'):
+  app/controllers/tops_controller.rb:18:in `index'
+
+
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 19:08:32 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 858ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops.css?body=1" for 127.0.0.1 at 2017-07-04 19:08:33 +0900
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-04 19:08:33 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-04 19:08:33 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-04 19:08:33 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-04 19:08:33 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-04 19:08:33 +0900
+
+
+Started GET "/assets/tops.js?body=1" for 127.0.0.1 at 2017-07-04 19:08:33 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 19:12:02 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 985ms
+
+ActionView::Template::Error (undefined method `low_resolution' for nil:NilClass):
+     5: 
+     6: <% @medias.each do |media| %>
+     7: <!-- 投稿画像 -->
+     8:   <%= link_to image_tag(media.images.low_resolution.url, :class => "img- rounded" ), media.link, :target=>["_blank"] %><br>
+     9: <!-- 投稿者名 -->
+    10:   <%= media['caption']['from']['full_name'] %><br>
+    11: <!-- コメント -->
+  app/views/tops/index.html.erb:8:in `block in _app_views_tops_index_html_erb___1490958193770756826_70316957640920'
+  app/views/tops/index.html.erb:6:in `each'
+  app/views/tops/index.html.erb:6:in `_app_views_tops_index_html_erb___1490958193770756826_70316957640920'
+
+
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 19:12:28 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 975ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+     7: <!-- 投稿画像 -->
+     8: 
+     9: <!-- 投稿者名 -->
+    10:   <%= media['caption']['from']['full_name'] %><br>
+    11: <!-- コメント -->
+    12:   <%= media.caption.text %><br>
+    13: <!-- いいねカウント -->
+  app/views/tops/index.html.erb:10:in `block in _app_views_tops_index_html_erb___1490958193770756826_70316971600920'
+  app/views/tops/index.html.erb:6:in `each'
+  app/views/tops/index.html.erb:6:in `_app_views_tops_index_html_erb___1490958193770756826_70316971600920'
+
+
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 19:12:38 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 831ms
+
+ActionView::Template::Error (undefined method `text' for nil:NilClass):
+     9: <!-- 投稿者名 -->
+    10: 
+    11: <!-- コメント -->
+    12:   <%= media.caption.text %><br>
+    13: <!-- いいねカウント -->
+    14:   <img src = "/images/heart.gif"><%= media['likes']['count'] %><br>
+    15: <!-- コメントカウント -->
+  app/views/tops/index.html.erb:12:in `block in _app_views_tops_index_html_erb___1490958193770756826_70316971942980'
+  app/views/tops/index.html.erb:6:in `each'
+  app/views/tops/index.html.erb:6:in `_app_views_tops_index_html_erb___1490958193770756826_70316971942980'
+
+
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 19:12:51 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1013ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-04 19:12:52 +0900
+
+
+Started GET "/assets/tops.css?body=1" for 127.0.0.1 at 2017-07-04 19:12:52 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-04 19:12:52 +0900
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-04 19:12:52 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-04 19:12:52 +0900
+
+
+Started GET "/assets/tops.js?body=1" for 127.0.0.1 at 2017-07-04 19:12:52 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-04 19:12:52 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 19:13:20 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1022ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops.css?body=1" for 127.0.0.1 at 2017-07-04 19:13:21 +0900
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-04 19:13:21 +0900
+
+
+Started GET "/assets/tops.js?body=1" for 127.0.0.1 at 2017-07-04 19:13:21 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-04 19:13:21 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-04 19:13:21 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-04 19:13:21 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-04 19:13:21 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 19:13:50 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 669ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-04 19:13:51 +0900
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-04 19:13:51 +0900
+
+
+Started GET "/assets/tops.js?body=1" for 127.0.0.1 at 2017-07-04 19:13:51 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-04 19:13:51 +0900
+
+
+Started GET "/assets/tops.css?body=1" for 127.0.0.1 at 2017-07-04 19:13:51 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-04 19:13:51 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-04 19:13:51 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 19:14:15 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 1370ms
+
+ActionView::Template::Error (undefined method `low_resolution' for nil:NilClass):
+    11: <!-- コメント -->
+    12: 
+    13: <!-- いいねカウント -->
+    14: <%=media.images.low_resolution.url%>
+    15: <!-- コメントカウント -->
+    16: 
+    17:   <% end %>
+  app/views/tops/index.html.erb:14:in `block in _app_views_tops_index_html_erb___1490958193770756826_70316945467160'
+  app/views/tops/index.html.erb:6:in `each'
+  app/views/tops/index.html.erb:6:in `_app_views_tops_index_html_erb___1490958193770756826_70316945467160'
+
+
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 19:15:45 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 806ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-04 19:15:45 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-04 19:15:45 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-04 19:15:45 +0900
+
+
+Started GET "/assets/tops.css?body=1" for 127.0.0.1 at 2017-07-04 19:15:45 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-04 19:15:45 +0900
+
+
+Started GET "/assets/tops.js?body=1" for 127.0.0.1 at 2017-07-04 19:15:45 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-04 19:15:45 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 19:16:15 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 303ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-04 19:16:15 +0900
+
+
+Started GET "/assets/tops.css?body=1" for 127.0.0.1 at 2017-07-04 19:16:15 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-04 19:16:15 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-04 19:16:15 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-04 19:16:15 +0900
+
+
+Started GET "/assets/tops.js?body=1" for 127.0.0.1 at 2017-07-04 19:16:15 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-04 19:16:15 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 19:17:24 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (38.5ms)
+Completed 200 OK in 51304ms (Views: 83.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-04 19:18:15 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-04 19:18:15 +0900
+
+
+Started GET "/assets/tops.css?body=1" for 127.0.0.1 at 2017-07-04 19:18:15 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-04 19:18:15 +0900
+
+
+Started GET "/assets/tops.js?body=1" for 127.0.0.1 at 2017-07-04 19:18:15 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-04 19:18:15 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-04 19:18:15 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 19:18:20 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 125903ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-04 19:20:26 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 19:20:32 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 24804ms (Views: 73.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-04 19:20:57 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-04 19:20:57 +0900
+
+
+Started GET "/assets/tops.css?body=1" for 127.0.0.1 at 2017-07-04 19:20:57 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-04 19:20:57 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-04 19:20:57 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-04 19:20:57 +0900
+
+
+Started GET "/assets/tops.js?body=1" for 127.0.0.1 at 2017-07-04 19:20:57 +0900
+
+
+Started GET "/images/comment.gif" for 127.0.0.1 at 2017-07-04 19:20:57 +0900
+
+ActionController::RoutingError (No route matches [GET] "/images/comment.gif"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (54.4ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.7ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (87.8ms)
+
+
+Started GET "/images/heart.gif" for 127.0.0.1 at 2017-07-04 19:20:57 +0900
+
+ActionController::RoutingError (No route matches [GET] "/images/heart.gif"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (22.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 19:21:37 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 446ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-04 19:21:37 +0900
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-04 19:21:37 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-04 19:21:37 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-04 19:21:37 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-04 19:21:37 +0900
+
+
+Started GET "/assets/tops.js?body=1" for 127.0.0.1 at 2017-07-04 19:21:37 +0900
+
+
+Started GET "/assets/tops.css?body=1" for 127.0.0.1 at 2017-07-04 19:21:37 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 19:23:32 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 911ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-04 19:23:33 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-04 19:23:33 +0900
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-04 19:23:33 +0900
+
+
+Started GET "/assets/tops.js?body=1" for 127.0.0.1 at 2017-07-04 19:23:33 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-04 19:23:33 +0900
+
+
+Started GET "/assets/tops.css?body=1" for 127.0.0.1 at 2017-07-04 19:23:33 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-04 19:23:33 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 19:28:47 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 954ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-04 19:28:47 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-04 19:28:48 +0900
+
+
+Started GET "/assets/tops.js?body=1" for 127.0.0.1 at 2017-07-04 19:28:48 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-04 19:28:48 +0900
+
+
+Started GET "/assets/tops.css?body=1" for 127.0.0.1 at 2017-07-04 19:28:48 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-04 19:28:48 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-04 19:28:48 +0900
+
+
+Started GET "/?utf8=%E2%9C%93&q=da&commit=Search" for 127.0.0.1 at 2017-07-04 19:29:02 +0900
+Processing by TopsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"da", "commit"=>"Search"}
+  Rendered tops/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 43842ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops.js?body=1" for 127.0.0.1 at 2017-07-04 19:29:46 +0900
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-04 19:29:46 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-04 19:29:46 +0900
+
+
+Started GET "/assets/tops.css?body=1" for 127.0.0.1 at 2017-07-04 19:29:46 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-04 19:29:46 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-04 19:29:46 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-04 19:29:46 +0900
+
+
+Started GET "/?utf8=%E2%9C%93&q=%E3%83%86%E3%82%B9%E3%83%88&commit=Search" for 127.0.0.1 at 2017-07-04 19:29:53 +0900
+Processing by TopsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"テスト", "commit"=>"Search"}
+Completed 500 Internal Server Error in 3ms
+
+NameError (undefined local variable or method `q' for #<TopsController:0x007fb733c9af30>):
+  app/controllers/tops_controller.rb:7:in `index'
+
+
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (50.1ms)
+
+
+Started GET "/?utf8=%E2%9C%93&q=%E3%83%86%E3%82%B9%E3%83%88&commit=Search" for 127.0.0.1 at 2017-07-04 19:30:16 +0900
+Processing by TopsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"テスト", "commit"=>"Search"}
+Completed 500 Internal Server Error in 21000ms
+
+NameError (undefined local variable or method `q' for #<TopsController:0x007fb7368486c8>):
+  app/controllers/tops_controller.rb:8:in `index'
+
+
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.5ms)
+
+
+Started GET "/?utf8=%E2%9C%93&q=%E3%83%86%E3%82%B9%E3%83%88&commit=Search" for 127.0.0.1 at 2017-07-04 19:30:39 +0900
+Processing by TopsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"テスト", "commit"=>"Search"}
+  Rendered tops/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 732ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops.css?body=1" for 127.0.0.1 at 2017-07-04 19:30:40 +0900
+
+
+Started GET "/assets/tops.js?body=1" for 127.0.0.1 at 2017-07-04 19:30:40 +0900
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-04 19:30:40 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-04 19:30:40 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-04 19:30:40 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-04 19:30:40 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-04 19:30:40 +0900
+
+
+Started GET "/?utf8=%E2%9C%93&q=%E3%82%B3%E3%83%BC%E3%83%A9&commit=Search" for 127.0.0.1 at 2017-07-04 19:30:45 +0900
+Processing by TopsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"コーラ", "commit"=>"Search"}
+  Rendered tops/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 403ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-04 19:30:45 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-04 19:30:45 +0900
+
+
+Started GET "/assets/tops.css?body=1" for 127.0.0.1 at 2017-07-04 19:30:45 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-04 19:30:45 +0900
+
+
+Started GET "/assets/tops.js?body=1" for 127.0.0.1 at 2017-07-04 19:30:45 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-04 19:30:45 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-04 19:30:45 +0900
+
+
+Started GET "/?utf8=%E2%9C%93&q=%E3%82%B3%E3%83%BC%E3%83%A9&commit=Search" for 127.0.0.1 at 2017-07-04 19:33:45 +0900
+Processing by TopsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"コーラ", "commit"=>"Search"}
+Completed 500 Internal Server Error in 257ms
+
+Instagram::BadRequest (GET https://api.instagram.com/v1/tags/%E3%82%B3%E3%83%BC%E3%83%A9/media/recent.json: 400: Missing client_id or access_token URL parameter.):
+  app/controllers/tops_controller.rb:8:in `index'
+
+
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/Keita/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 19:33:50 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 87ms (Views: 86.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-04 19:33:51 +0900
+
+
+Started GET "/assets/tops.css?body=1" for 127.0.0.1 at 2017-07-04 19:33:51 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-04 19:33:51 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-04 19:33:51 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-04 19:33:51 +0900
+
+
+Started GET "/assets/tops.js?body=1" for 127.0.0.1 at 2017-07-04 19:33:51 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-04 19:33:51 +0900
+
+
+Started GET "/?utf8=%E2%9C%93&q=das&commit=Search" for 127.0.0.1 at 2017-07-04 19:33:53 +0900
+Processing by TopsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"das", "commit"=>"Search"}
+  Rendered tops/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 425ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops.js?body=1" for 127.0.0.1 at 2017-07-04 19:33:54 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-04 19:33:54 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-04 19:33:54 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-04 19:33:54 +0900
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-04 19:33:54 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-04 19:33:54 +0900
+
+
+Started GET "/assets/tops.css?body=1" for 127.0.0.1 at 2017-07-04 19:33:54 +0900
+
+
+Started GET "/?utf8=%E2%9C%93&q=%E3%83%86%E3%82%B9%E3%83%88&commit=Search" for 127.0.0.1 at 2017-07-04 19:33:58 +0900
+Processing by TopsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"テスト", "commit"=>"Search"}
+  Rendered tops/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 456ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-07-04 19:33:58 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-07-04 19:33:58 +0900
+
+
+Started GET "/assets/tops.css?body=1" for 127.0.0.1 at 2017-07-04 19:33:58 +0900
+
+
+Started GET "/assets/tops.js?body=1" for 127.0.0.1 at 2017-07-04 19:33:58 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-07-04 19:33:58 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-07-04 19:33:58 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-07-04 19:33:58 +0900

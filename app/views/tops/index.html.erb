@@ -1,0 +1,16 @@
+<%= form_tag("/", method: "get") do %>
+  <%= label_tag(:q, "Search for:") %>
+  <%= text_field_tag(:q) %>
+  <%= submit_tag("Search") %>
+<% end %>
+
+<% if @medias == nil %>
+  <%= "投稿がありません" %>
+<% else %>
+
+<% @medias.each do |media| %>
+  <%= link_to image_tag(media.images.low_resolution.url, :class => "img- rounded" ), media.link, :target=>["_blank"] %><br>
+  <%= media['caption']['from']['full_name'] %><br>
+  <%= media.caption.text %><br>
+  <% end %>
+<% end %>
